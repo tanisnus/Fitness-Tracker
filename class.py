@@ -14,6 +14,12 @@ class Person:
             "Dinner": ["Rice", "Sausage", "Orange"]
             
             }
+        
+    def get_workout_data(self) -> None:
+        muscle_target = ["Chest", "Back", "Bicep", "Tricep", "Shoulder", "Legs", "Abs"]
+        print("These are main muscle target groups")
+        for item in muscle_target:
+            print(item)
 
 
 
@@ -50,4 +56,4 @@ class Person:
 if __name__ == "__main__":
     Jack = Person(145.5,17.54,2)
     Jack.get_user_goal()
-    print(Jack.calculate_BMI())
+    Jack.get_workout_data()
