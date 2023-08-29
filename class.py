@@ -51,8 +51,6 @@ class Person:
     # idea: create calender to keep track what they a user exercise
 
 
-
-
 if __name__ == "__main__":
     Jack = Person(145.5,17.54,2)
     Jack.get_user_goal()
