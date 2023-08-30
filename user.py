@@ -22,7 +22,6 @@ class Person:
             print(item)
 
 
-
     def get_user_goal(self) -> None:
         goal_list = ["gain weight", "maintain weight", "lose weight", "gain muscle", "manage stress"]
 
