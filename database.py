@@ -31,6 +31,7 @@ class UserDatabase:
         self.cursor.execute(""" INSERT INTO user VALUES ('Tanis') 
                             
         """)
+        print("insert function")
 
     def output_data(self):
         self.cursor.execute("SELECT * FROM user")
