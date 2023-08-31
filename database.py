@@ -63,7 +63,7 @@ class UserDatabase:
                 invalid_file_name = False
 
             except Exception as error:
-                print("Error has occured:", error)
+                print("Invalid File Name:", error)
 
         user_file:str = user_file + '.db'
 
